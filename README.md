@@ -11,13 +11,12 @@ analyze and categorize product reviews. All code must be implemented in Python a
 models must use the Scikit Learn toolkit - https://scikit-learn.org/stable/index.html. You are not
 allowed to use other toolkits, such as NLTK or transformer network architectures, for your
 project results.
+
 Here are examples of some useful Scikit modules:
-● https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVect
-orizer.html
-● https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.Hashing
-Vectorizer.html#sklearn.feature_extraction.text.HashingVectorizer
-● https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVe
-ctorizer.html#sklearn.feature_extraction.text.CountVectorizer
+● https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+● https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html#sklearn.feature_extraction.text.HashingVectorizer
+● https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer
+
 Projects will be individual: each student will work on their own project. Students can discuss with
 each other for clarification, but they should make sure not to share codes. Any collaboration or
 sharing of ideas should be acknowledged in the project reports with sufficient details.
@@ -26,8 +25,7 @@ sharing of ideas should be acknowledged in the project reports with sufficient d
 Link to dataset: https://tinyurl.com/22yau9r8
 You will be given two files: Training.csv and Test.csv.
 
-# Training.csv: This file is a CSV file consisting of review-related information with the following
-fields:
+# Training.csv: This file is a CSV file consisting of review-related information with the following fields:
 ● overall: This is the product’s rating on a scale of (1-5)
 ● verified: A boolean variable denoting if the review has been verified by Amazon
 ● reviewTime: time of review
