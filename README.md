@@ -13,9 +13,10 @@ allowed to use other toolkits, such as NLTK or transformer network architectures
 project results.
 
 Here are examples of some useful Scikit modules:
-● https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
-● https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html#sklearn.feature_extraction.text.HashingVectorizer
-● https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer
+
+1. https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+2. https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html#sklearn.feature_extraction.text.HashingVectorizer
+3. https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer
 
 Projects will be individual: each student will work on their own project. Students can discuss with
 each other for clarification, but they should make sure not to share codes. Any collaboration or
@@ -26,18 +27,19 @@ Link to dataset: https://tinyurl.com/22yau9r8
 You will be given two files: Training.csv and Test.csv.
 
 # Training.csv: This file is a CSV file consisting of review-related information with the following fields:
-● overall: This is the product’s rating on a scale of (1-5)
-● verified: A boolean variable denoting if the review has been verified by Amazon
-● reviewTime: time of review
-● reviewerID: The unique ID of the Amazon reviewer (some have left multiple reviews)
-● asin: Product ID. One product will have many different reviews
-● reviewerName: Encoding of the Amazon reviewer’s username
-● reviewText: The Amazon review
-● unixReviewTime: unix time of review
-● vote: How many people voted this review as being helpful
-● image: If there is an image, link to the image
-● style: If there is style information (e.g., size of shirt, color of phone), it is embedded in a dictionary here. Only available for some samples
-● Category: The Amazon product category of the product.
+
+1. overall: This is the product’s rating on a scale of (1-5)
+2. verified: A boolean variable denoting if the review has been verified by Amazon
+3. reviewTime: time of review
+4. reviewerID: The unique ID of the Amazon reviewer (some have left multiple reviews)
+5. asin: Product ID. One product will have many different reviews
+6. reviewerName: Encoding of the Amazon reviewer’s username
+7. reviewText: The Amazon review
+8. unixReviewTime: unix time of review
+9. vote: How many people voted this review as being helpful
+10. image: If there is an image, link to the image
+11. style: If there is style information (e.g., size of shirt, color of phone), it is embedded in a dictionary here. Only available for some samples
+12. Category: The Amazon product category of the product.
 
 # Test.csv
 This file contains all the same features as Training.csv, but the overall variable is withheld. You
